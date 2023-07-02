@@ -6,11 +6,10 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         Words w = new Words();
         String[] generated_words = {w.getWord(), w.getWord(), w.getWord(), w.getWord(), w.getWord()};
-        System.out.println("""
-                ╭────────────────────────────╮
-                │       Welcome to our       │
-                │           Game!            │
-                ╰────────────────────────────╯""");
+        System.out.println("╭────────────────────────────╮");
+        System.out.println("│       Welcome to our       │");
+        System.out.println("│           Game!            │");
+        System.out.println("╰────────────────────────────╯");
         System.out.println("If you correctly guess 3 out of 5 words, you will win a reward of 50 coins..");
 
         int points = 0; //setting initial value of game points to be 0
